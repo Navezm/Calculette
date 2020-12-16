@@ -50,7 +50,6 @@ for (let i = 0; i < btnChiffre.length; i++) {
 
 // Event chiffre // Clavier
 document.addEventListener("keydown", function(e){
-    console.log(e.code);
     if(e.code == "Numpad1" || e.code == "Digit1"){
         input.value = input.value + "1";
     } else if(e.code == "Numpad2" || e.code == "Digit2"){
